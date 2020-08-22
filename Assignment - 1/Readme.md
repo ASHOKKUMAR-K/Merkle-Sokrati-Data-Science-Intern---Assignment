@@ -46,6 +46,9 @@ link_clicks                    float64
 5. There are two campaign platform where the marketing was done.
     - Google Ads
     - Facebook Ads
+    
+    ![Platform](images/platform.png)
+    
 6. Out of 16,834 records, 15,101 records are from Google Ads and only 1,733 records are from facebook Ads. 
 The product is getting more attraction from Google Ads which is 9 times more than Facebook Ads. 
     - Percentage of Attraction from Google Ads : 89.71%
@@ -61,6 +64,8 @@ So, I have dropped the `medium_communication` column from the data due to 100% s
     - Google Ads - Subchannel - Brand      ==> 52.00%
     - Google Ads - Subchannel - Generic    ==> 30.09%
     - Google Ads - Subchannel - Competitor ==> 17.91%
+    
+    ![Subchannel](images/subchannel.png)
 
 10. The `audience_type` column is specific to the Facebook Ads platform. There are three kinds of Audience Type related to the Facebook Ads.
     ```
@@ -68,6 +73,8 @@ So, I have dropped the `medium_communication` column from the data due to 100% s
     Audience 2      738 / 1733
     Audience 3      182 / 1733
     ```
+    
+    ![FB Audience](images/fb_Audience.png)
 
 11. The `creative_type` column is specific to the Facebook Ads platform. There are 2 creative types for facebook ads:
 	```
@@ -76,6 +83,8 @@ So, I have dropped the `medium_communication` column from the data due to 100% s
     ```
     - Facebook Ads - Creative Type - Image    : 65.20%
     - Facebook Ads - Creative Type - Carousal : 34.80%
+    
+    ![FB Creative](images/creative_type.png)
 
 12. The `creative_name` column is also specific to the Facebook Ads platform. The different creatives of Facebook Ads are:
 	```
@@ -87,6 +96,8 @@ So, I have dropped the `medium_communication` column from the data due to 100% s
     - Facebook Ads - Creative Type - Image - Click    : 37.16%
     - Facebook Ads - Creative Type - Image - Girl     : 28.04%
     - Facebook Ads - Creative Type - Carousal         : 34.80%
+    
+    ![Creative Name](images/creative_name.png)
 
 13. The `device` column mostly related Google Ads. There is no appropriate data on Facebook Ads.
     ```
@@ -99,6 +110,8 @@ So, I have dropped the `medium_communication` column from the data due to 100% s
     - Google Ads - device - Mobile    : 48.72%
     - Google Ads - device - Desktop   : 41.84%
     - Google Ads - device - Tablet    :  9.44%
+    
+    ![Device](images/device.png)
 
 14. From `age` column, more or less all the age groups are contributing same.
     ```
@@ -126,11 +139,18 @@ So, I have dropped the `medium_communication` column from the data due to 100% s
 - The product is getting more attraction from Google Ads campaign Platform.
 - The product is getting more attraction from people of age group 25 - 44 (approximately 35%)
 - And If targeted on the people of age group 18 - 50 (approximately 60%)
-- In Facebook Ads, Image is better than carousal.
+- In Facebook Ads, Image(Click type) is better than carousal.
 - In Google Ads, concentrate more on *Brand* sub channel.
-
+- Focus more on Mobile users, then Desktop users.
+- The people wo spent more time are of age group 25 - 34.
 
 ### Tableau Report
 
+My Tableau report is under progress. Once completed, I will update here.
 
 ### Conclusion
+
+Great Analysis will results in great results. Here, I have done my analysis, which makes more easy to build great ML models.
+
+
+<br><br><br> <h3>Thank you</h3>
